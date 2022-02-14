@@ -1,0 +1,6 @@
+{
+	"appId": "com.segihovav.shoppinglist",
+	"appName": "Shopping List",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

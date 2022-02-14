@@ -1,0 +1,149 @@
+.clickable {
+    pointer-events: auto !important;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.myDropdown {
+    border: 1px dashed black;
+}
+
+.noPadding {
+    padding: unset !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightMargin {
+    margin-right: 70%;
+}
+
+.addRow ion-col {
+    color: black;
+}
+
+ion-col {
+    border: 1px solid black;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+ion-content {
+    --offset-bottom: auto !important;
+    --overflow: auto;
+    overflow: auto;    
+}
+
+ion-grid:not(.modalDialog) {
+    --ion-grid-column-padding: 10px;
+    border-collapse: collapse;
+    border-style: hidden;
+    min-width: 500px;    
+    float: left;    
+}
+
+ion-grid.modalDialog {
+     height: 97px;
+}
+
+ion-grid.noBorder {
+    border: none;
+}
+
+ion-input {
+    border: 1px dashed black;
+}
+
+ion-modal {
+     text-align: center;
+     --height: 97px;
+}
+
+ion-modal ion-grid {
+    border: 1px solid black;
+    overflow-y: hidden !important;
+}
+
+ion-row:first-child:not(.addRow) > ion-col:not(first-child) {
+    border-left: 0;
+}
+
+ion-row:first-child {
+    background-color:  #CECBCB;
+    font-weight: bold;
+}
+
+ion-row:not(:first-child) > ion-col {
+    border-right: 1px solid black;
+}
+
+ion-row:last-child {
+     margin-bottom: 50px;
+}
+
+ion-row:last-child ion-col {
+    border-bottom: 1px solid black;    
+}
+
+ion-row.addRow {
+     background-color:  #FFFFFF !important;
+     border: 1px solid black !important;
+     
+}
+
+ion-title {
+    margin-left: 45px;
+}
+
+.addRow > ion-col > ion-input {
+    color: black;
+}
+
+.addRow > ion-col > ion-select {
+    color: black;
+}
+
+.styled-table {
+    border-collapse: collapse;    
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table ion-row {
+    background-color: #3880ff;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table .header,
+.styled-table ion-col {
+    padding: 12px 15px;
+    border-style: none;
+}
+
+.styled-table ion-row {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table ion-row:nth-of-type(even) {
+    background-color: #f3f3f3;
+    color:black;
+}
+
+.styled-table ion-row:last-of-type {
+    border-bottom: 2px solid #3880ff;
+}
+
+.styled-table ion-row.active-row {
+    font-weight: bold;
+    color: #3880ff;
+}
+
